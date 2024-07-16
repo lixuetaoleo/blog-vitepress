@@ -13,4 +13,7 @@ hero:
     - theme: alt
       text: 关于我
       link: /api-examples
+    - theme: alt
+      text: 作品
+      link: /gallery
 ---
