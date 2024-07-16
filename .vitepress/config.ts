@@ -5,11 +5,13 @@ export default defineConfig({
   title: "LXT's space",
   description: "Share something :)",
   srcDir: 'docs',
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      // { text: 'Home', link: '/' },
+      { text: '文章', link: '/markdown-examples' },
+      { text: '关于我', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -21,6 +23,10 @@ export default defineConfig({
         ]
       }
     ],
+
+    outline: {
+      level: 'deep',
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }

@@ -5,21 +5,12 @@ layout: home
 hero:
   name: "LXT's space"
   text: "Share something :)"
-  tagline: My great project tagline
+  # tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 文章
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: 关于我
       link: /api-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
